@@ -55,6 +55,11 @@ img {
   gap: 40px;
 }
 
+.addres-list {
+  display: flex;
+  gap: 40px;
+}
+
 .addres-header .header-logo {
   font-family: var(--second-family);
   font-weight: 700;
@@ -105,6 +110,7 @@ img {
   background: var(--navy-blue);
   width: 1440px;
   height: 600px;
+  padding: 188px 0;
 }
 
 .section-bir-baslik {
@@ -115,6 +121,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
+  max-width: 496px;
 }
 
 .section-bir-button {
@@ -123,6 +130,12 @@ img {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* section iki */
