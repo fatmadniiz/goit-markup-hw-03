@@ -40,12 +40,22 @@ a {
 img {
   display: block;
 }
-ul {
+
+.nav-list-menu {
   display: flex;
   gap: 40px;
 }
 
-.header-logo {
+.nav-list-menu li {
+  padding: 24px 0;
+}
+
+.addres-header .addres-list {
+  display: flex;
+  gap: 40px;
+}
+
+.addres-header .header-logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
