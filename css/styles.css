@@ -253,8 +253,13 @@ section.our-team {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 72px;
 }
-
+.our-portfolio-div {
+  margin-bottom: 8px;
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+}
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
