@@ -55,7 +55,7 @@ ul {
   color: var(--iris);
 }
 
-.nav {
+.nav-menu {
   display: flex;
   align-items: center;
 }
