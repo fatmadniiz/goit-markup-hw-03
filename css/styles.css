@@ -139,7 +139,12 @@ img {
 }
 
 /* section iki */
-.section-iki-baslik {
+
+.section-iki {
+  padding: 120px 0;
+}
+
+.visually-hidden {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -147,6 +152,19 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+
+.section-iki-list {
+  width: calc((100% - 72px) / 4
+}
+
+.visually-hidden-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-iki-baslik{
+   margin-bottom: 8px;}
+
 
 .section-iki-text {
   font-family: var(--font-family);
