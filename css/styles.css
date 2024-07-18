@@ -178,6 +178,27 @@ img {
 }
 
 /* Our team alanı-section üç */
+.section-three {
+  padding: 120px 0;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team {
+  margin-bottom: 72px;
+}
+
+.our-team-listeler {
+  width: calc((100% - 72px) / 4);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0px;
+  border-top-right-radius: 4px;
+}
+
 .our-team-img {
   font-family: var(--font-family);
   font-weight: 500;
