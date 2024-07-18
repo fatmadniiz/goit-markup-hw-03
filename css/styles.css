@@ -40,6 +40,10 @@ a {
 img {
   display: block;
 }
+ul {
+  display: flex;
+  gap: 40px;
+}
 
 .header-logo {
   font-family: var(--second-family);
