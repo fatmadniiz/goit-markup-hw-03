@@ -272,6 +272,9 @@ section.our-team {
 }
 
 /* Footer alanı */
+.footer-altmetin {
+  padding: 100px 0;
+}
 
 .logo-footer-span {
   font-family: var(--second-family);
@@ -291,6 +294,8 @@ section.our-team {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 footer {
@@ -306,4 +311,5 @@ footer {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--cloud);
+  max-width: 264px;
 }
